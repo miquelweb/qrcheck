@@ -1,0 +1,131 @@
+body {
+	background-color: #666;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #FFF;
+}
+a {
+	color: #FFF;
+	text-decoration: none;
+}
+div{
+	position:relative;
+	float:left;	
+}
+#contingut {
+	float: left;
+	height: 480px;
+	width: 320px;
+	position: relative;
+}
+#logogran {
+	float: left;
+	margin-top: 25px;
+	margin-left: 60px;
+	position: relative;
+}
+#formlogin {
+	float: left;
+	margin-top: 176px;
+	margin-left: 104px;
+	position: relative;
+}
+#formlogin label {
+	font-size: 13px;
+	display: block;
+	margin-bottom: 5px;
+	margin-left: 20px;
+	position: relative;
+	color: #DEEEFF;
+	font-weight: bold;
+}
+#formlogin input {
+	display: block;
+	height: 23px;
+	width: 146px;;
+	margin-bottom: 15px;
+	position: relative;
+	margin-left: 10px;
+}
+#formlogin #missatgeregistre {
+	font-size: 12.5px;
+	width: 240px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+#botoconfig{
+	margin-top:362px;
+}
+#botogenera{
+	margin-top:320px;
+}
+#bototiquets{
+	margin-top:362px;		
+}
+#botocancela{
+	margin-top:300px;	
+	margin-left:18px;	
+}
+#botofletxa{
+	margin-top:47px;		
+}
+
+
+.taula{
+	float: left;
+	height: 345px;
+	width: 320px;
+	position: relative;
+	background-color:#FFF;
+	border: solid 1px #000;
+}
+.headertaula{
+	background-color:#666;
+	color:#fff;
+	font-size:12px;
+}
+.headertaula .cella{
+	padding:5px;
+	padding:5px;
+}
+.taula .fila {
+	background-color: #FFF;
+	float: left;
+	width: 320px;
+	position: relative;
+	display: block;
+	font-size:12px;
+	color:#31363F;
+}
+.taula .fila.parell {
+	background-color: #D9E4F2;
+}
+.taula .fila:hover {
+	background-color: #EEB81C;
+	color: #000;
+}
+.taula .cella {
+	height: 15px;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+}
+
+#botoenrera{
+	margin-top:300px;	
+	margin-left:12px;	
+}
+#botoanulatiquet{
+	margin-top:300px;	
+	margin-left:12px;	
+
+}
+#modalpagament{
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:320px;
+	height:480px;
+	display:none;
+}
+
