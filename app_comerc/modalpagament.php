@@ -5,7 +5,7 @@ $query = "SELECT * FROM operacions where codicomerc='".$_SESSION["comerc"]."'";
 $detall=mysql_query($query, $qrcheck) or die(mysql_error());
 $dades = mysql_fetch_assoc($detall);
 $total=mysql_num_rows($detall);
-	if($total>2){
+	if($total>4){
 		//$_SESSION["avisos"]=1;?>
 		<script language="javascript">
 			$("#modalpagament").show();
